@@ -1,12 +1,39 @@
-# React + Vite
+# 🎨 ColorVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ColorVision** is a modern and interactive web application built with React that allows users to explore, pick, and analyze colors. You can generate color variations (shades and tints), view detailed color information, and even upload an image to pick colors from it. Ideal for designers, developers, and anyone working with colors.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Color Picker**: Choose colors using an intuitive palette.
+- 🌈 **Color Variations**: Automatically generate tints and shades.
+- 📋 **Color Formats**: View and copy HEX, RGB, RGBA, and HSV formats.
+- 🖼️ **Image Color Picker**: Upload an image and pick colors from it.
+- 🏷️ **Color Naming**: Detects the closest color name using `color-namer`.
+- 🔔 **Toast Notifications**: Seamless copy-to-clipboard feedback using `react-hot-toast`.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Demo
+
+Check out the live demo: [https://your-deployment-url.com](https://your-deployment-url.com)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Jitesh02/Dev_tools
+cd Dev_tools
+```
+2. Install dependencies
+
+```bash
+npm install
+```
+3. Start the development server
+   ```bash
+   npm run dev
+```
+
